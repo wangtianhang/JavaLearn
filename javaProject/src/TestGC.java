@@ -10,4 +10,11 @@ public class TestGC {
         //super.finalize();
         System.out.println("testgc finalize");
     }
+
+    public static void main(String[] args) {
+        TestGC test = new TestGC();
+        test = null;
+
+        System.gc();
+    }
 }

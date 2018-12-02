@@ -2,10 +2,10 @@ public class Main {
 
     public static void main(String[] args)
     {
-        TestGC test = new TestGC();
-        test = null;
+        //TestGC test = new TestGC();
+        //test = null;
 
-        System.gc();
+        //System.gc();
 
         System.out.println("Hello World!");
 
